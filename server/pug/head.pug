@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{ title }
+        link(media="(prefers-color-scheme: dark)", rel="shortcut icon", href="../../svg/favicon--color_scheme_dark.svg", type="xml+svg")
+        link(media="(prefers-color-scheme: light)", rel="shortcut icon", href="../../svg/favicon--color_scheme_light.svg", type="xml+svg")
+        block description
+        block styles
+            link(rel="stylesheet", href="../../css/utility.css")
+        block scripts
+            link(rel="stylesheet", href="../../js/utility.js")
+    body 
+        block body
